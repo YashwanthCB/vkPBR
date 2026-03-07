@@ -1,0 +1,77 @@
+Info,  T10152: this is my info-call
+Info,  T10152: Load assets/models/ico.obj
+Debug, T10152: Assimp 3.3.0 amd64 msvc debug shared singlethreaded
+Info,  T10152: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T10152: Import root directory is 'assets/models\'
+Info,  T10152: Entering post processing pipeline
+Debug, T10152: RemoveRedundantMatsProcess begin
+Debug, T10152: RemoveRedundantMatsProcess finished 
+Debug, T10152: FindDegeneratesProcess begin
+Debug, T10152: FindDegeneratesProcess finished
+Debug, T10152: GenUVCoordsProcess begin
+Debug, T10152: GenUVCoordsProcess finished
+Debug, T10152: TriangulateProcess begin
+Debug, T10152: TriangulateProcess finished. There was nothing to be done.
+Debug, T10152: SortByPTypeProcess begin
+Info,  T10152: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T10152: SortByPTypeProcess finished
+Debug, T10152: FindInvalidDataProcess begin
+Debug, T10152: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T10152: SplitLargeMeshesProcess_Triangle begin
+Debug, T10152: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
+Debug, T10152: Generate spatially-sorted vertex cache
+Debug, T10152: GenVertexNormalsProcess begin
+Debug, T10152: GenVertexNormalsProcess finished. Normals are already there
+Debug, T10152: CalcTangentsProcess begin
+Info,  T10152: CalcTangentsProcess finished. Tangents have been calculated
+Debug, T10152: JoinVerticesProcess begin
+Debug, T10152: Mesh 0 (Icosphere) | Verts in: 240 out: 240 | ~0%
+Debug, T10152: JoinVerticesProcess finished 
+Debug, T10152: SplitLargeMeshesProcess_Vertex begin
+Debug, T10152: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
+Debug, T10152: LimitBoneWeightsProcess begin
+Debug, T10152: LimitBoneWeightsProcess end
+Debug, T10152: ImproveCacheLocalityProcess begin
+Warn,  T10152: Mesh 0: Not suitable for vcache optimization
+Info,  T10152: Cache relevant are 0 meshes (0 faces). Average output ACMR is -nan(ind)
+Debug, T10152: ImproveCacheLocalityProcess finished. 
+Info,  T10152: Leaving post processing pipeline
+Info,  T10152: Load assets/models/sphere.obj
+Debug, T10152: Assimp 3.3.0 amd64 msvc debug shared singlethreaded
+Debug, T10152: (Deleting previous scene)
+Info,  T10152: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T10152: Import root directory is 'assets/models\'
+Info,  T10152: Entering post processing pipeline
+Debug, T10152: RemoveRedundantMatsProcess begin
+Debug, T10152: RemoveRedundantMatsProcess finished 
+Debug, T10152: FindDegeneratesProcess begin
+Debug, T10152: FindDegeneratesProcess finished
+Debug, T10152: GenUVCoordsProcess begin
+Debug, T10152: GenUVCoordsProcess finished
+Debug, T10152: TriangulateProcess begin
+Debug, T10152: TriangulateProcess finished. There was nothing to be done.
+Debug, T10152: SortByPTypeProcess begin
+Info,  T10152: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T10152: SortByPTypeProcess finished
+Debug, T10152: FindInvalidDataProcess begin
+Debug, T10152: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T10152: SplitLargeMeshesProcess_Triangle begin
+Debug, T10152: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
+Debug, T10152: Generate spatially-sorted vertex cache
+Debug, T10152: GenVertexNormalsProcess begin
+Debug, T10152: GenVertexNormalsProcess finished. Normals are already there
+Debug, T10152: CalcTangentsProcess begin
+Error, T10152: Failed to compute tangents; need UV data in channel0
+Debug, T10152: CalcTangentsProcess finished
+Debug, T10152: JoinVerticesProcess begin
+Debug, T10152: Mesh 0 (Sphere) | Verts in: 2880 out: 482 | ~83.2639%
+Info,  T10152: JoinVerticesProcess finished | Verts in: 2880 out: 482 | ~83.3%
+Debug, T10152: SplitLargeMeshesProcess_Vertex begin
+Debug, T10152: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
+Debug, T10152: LimitBoneWeightsProcess begin
+Debug, T10152: LimitBoneWeightsProcess end
+Debug, T10152: ImproveCacheLocalityProcess begin
+Debug, T10152: Mesh 0 | ACMR in: 2.122917 out: 0.741667 | ~65.1%
+Info,  T10152: Cache relevant are 1 meshes (960 faces). Average output ACMR is 0.741667
+Debug, T10152: ImproveCacheLocalityProcess finished. 
+Info,  T10152: Leaving post processing pipeline
